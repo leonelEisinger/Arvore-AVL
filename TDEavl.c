@@ -380,9 +380,9 @@ int main() {
         printf("7. Exibir produtos por letra\n");
         printf("8. Exibir produtos por quantidade acima\n");
         printf("9. Exibir produtos por quantidade abaixo\n");
-        printf("10. Percurso pré-fixado\n");
+        printf("10. Percurso pre-fixado\n");
         printf("11. Sair\n");
-        printf("Escolha uma opção: ");
+        printf("Escolha uma opcao: ");
         scanf("%d", &opcao);
 
         switch (opcao) {
@@ -433,7 +433,7 @@ int main() {
             case 11:
                 exit(0);
             default:
-                printf("Opção inválida!\n");
+                printf("Opção invalida!\n");
         }
     }
 
