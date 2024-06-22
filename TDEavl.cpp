@@ -436,5 +436,6 @@ int main() {
                 printf("Opção inválida!\n");
         }
     }
+
     return 0;
 }
